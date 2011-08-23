@@ -33,7 +33,7 @@
                 case 'SERVERNAME':
                         define('ENV_NAME', 'test');
                         define('ERROR_LEVEL', E_ALL);
-                        define('BASEURL', 'http://SERVERNAME/');
+                        define('BASEURL', 'http://SERVERNAME');
                         define('SERVERNAME',ltrim(BASEURL,'http://'));
                         define('PROFILER',TRUE);
                         define('HTDOCS_PATH' , '/mnt/www/BF-Mobile/site/htdocs');
