@@ -18,10 +18,10 @@
                         define('TARGET_HOST' , 'http://i.qa.bluefly.com');
                         define('SECURE_TARGET_HOST' , 'https://i.qa.bluefly.com');
                 break;
-                case 'LB1-Test-349240709.us-east-1.elb.amazonaws.com':
+                case 'lb1-test-349240709.us-east-1.elb.amazonaws.com':
                         define('ENV_NAME', 'test');
                         define('ERROR_LEVEL', E_ALL);
-                        define('BASEURL', 'http://LB1-Test-349240709.us-east-1.elb.amazonaws.com/');
+                        define('BASEURL', 'http://lb1-test-349240709.us-east-1.elb.amazonaws.com/');
                         define('SERVERNAME',ltrim(BASEURL,'http://'));
                         define('PROFILER',TRUE);
                         define('HTDOCS_PATH' , '/mnt/www/BF-Mobile/site/htdocs');
