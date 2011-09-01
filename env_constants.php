@@ -30,10 +30,10 @@
                         define('SYSTEM_PATH' , '/mnt/www/BF-Mobile/CodeIgniter/CodeIgniter_1.7.3/system');
                         define('TARGET_HOST' , 'http://i.bluefly.com');
                         define('SECURE_TARGET_HOST' , 'https://i.bluefly.com');
-                case '75.101.216.125':
+                case 'SERVER_NAME':
                         define('ENV_NAME', 'test');
                         define('ERROR_LEVEL', E_ALL);
-                        define('BASEURL', 'http://75.101.216.125');
+                        define('BASEURL', 'http://SERVER_NAME');
                         define('SERVERNAME',ltrim(BASEURL,'http://'));
                         define('PROFILER',TRUE);
                         define('HTDOCS_PATH' , '/mnt/www/BF-Mobile/site/htdocs');
