@@ -9,6 +9,7 @@
                         define('ENV_NAME', 'test');
                         define('ERROR_LEVEL', E_ALL);
                         define('BASEURL', 'http://m.qa.bluefly.com');
+                        define('SECURE_BASEURL', 'https://m.qa.bluefuly.com');
                         define('SERVERNAME',ltrim(BASEURL,'http://'));
                         define('PROFILER',TRUE);
                         define('HTDOCS_PATH' , '/mnt/www/BF-Mobile/site/htdocs');
@@ -22,6 +23,7 @@
                         define('ENV_NAME', 'test');
                         define('ERROR_LEVEL', E_ALL);
                         define('BASEURL', 'http://lb1-test-349240709.us-east-1.elb.amazonaws.com/');
+                        define('SECURE_BASEURL', 'https://lb1-test-349240709.us-east-1.elb.amazonaws.com');
                         define('SERVERNAME',ltrim(BASEURL,'http://'));
                         define('PROFILER',TRUE);
                         define('HTDOCS_PATH' , '/mnt/www/BF-Mobile/site/htdocs');
@@ -30,10 +32,11 @@
                         define('SYSTEM_PATH' , '/mnt/www/BF-Mobile/CodeIgniter/CodeIgniter_1.7.3/system');
                         define('TARGET_HOST' , 'http://i.bluefly.com');
                         define('SECURE_TARGET_HOST' , 'https://i.bluefly.com');
-                case 'SERVER_NAME':
+                case '75.101.216.125':
                         define('ENV_NAME', 'test');
                         define('ERROR_LEVEL', E_ALL);
-                        define('BASEURL', 'http://SERVER_NAME');
+                        define('BASEURL', 'http://75.101.216.125');
+                        define('SECURE_BASEURL', 'https://75.101.216.125');
                         define('SERVERNAME',ltrim(BASEURL,'http://'));
                         define('PROFILER',TRUE);
                         define('HTDOCS_PATH' , '/mnt/www/BF-Mobile/site/htdocs');
@@ -47,6 +50,7 @@
                         define('ENV_NAME', 'dev');
                         define('ERROR_LEVEL', E_ALL);
                         define('BASEURL', 'http://elod.m.firestart3r.com');
+                        define('SECURE_BASEURL', 'https://elod.m.firestart3r.com');
                         define('SERVERNAME',ltrim(BASEURL,'http://'));
                         define('PROFILER',TRUE);
                         define('HTDOCS_PATH' , '/www/elod-m-bluefly/htdocs');
@@ -60,6 +64,7 @@
                         define('ENV_NAME', 'dev');
                         define('ERROR_LEVEL', E_ALL);
                         define('BASEURL', 'http://zoli.m.firestart3r.com');
+                        define('SECURE_BASEURL', 'https://zoli.m.firestart3r.com');
                         define('SERVERNAME',ltrim(BASEURL,'http://'));
                         define('PROFILER',TRUE);
                         define('HTDOCS_PATH' , '/www/zoli-m-bluefly/htdocs');
